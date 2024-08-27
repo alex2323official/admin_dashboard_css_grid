@@ -6,3 +6,15 @@
   --color-main-grey-bg: #fff6f4;
   --color-main-dark-txt: #333333;
 }
+
+/* Fonts */
+:root {
+  --font-weight-regular: 300;
+  --font-weight-bold: 500;
+  --font-weight-superbold: 700;
+
+  --font-size-text: 14px;
+  --font-size-text-bold: 18px;
+  --font-size-sidebar-nav: 29px;
+  --font-size-h1: 37px;
+}
