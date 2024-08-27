@@ -1,0 +1,4 @@
+body {
+  background-color: var(--color-main-grey-bg);
+  color: var(--color-main-dark-txt);
+}
