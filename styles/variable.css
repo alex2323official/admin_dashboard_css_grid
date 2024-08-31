@@ -13,8 +13,8 @@
   --font-weight-bold: 500;
   --font-weight-superbold: 700;
 
-  --font-size-text: 14px;
-  --font-size-text-bold: 18px;
-  --font-size-sidebar-nav: 29px;
-  --font-size-h1: 37px;
+  --font-size-text: 0.875rem; /* 14px */
+  --font-size-text-bold: 1.125rem; /* 18px */
+  --font-size-sidebar-nav: 1.8125rem; /* 29px */
+  --font-size-h1: 2.3125rem; /* 37px */
 }
