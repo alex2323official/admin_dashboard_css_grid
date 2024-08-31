@@ -4,4 +4,45 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-text);
+
+  /* GRID SETUP */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+/* HEADER SECTION */
+.header {
+  background-color: var(--color-main-white);
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.header-search-top {
+}
+
+.header-bottom {
+}
+
+/* MAIN SECTION PROJECTS */
+.your-projects {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.main-projects {
+}
+
+.announcments {
+}
+
+.trending {
+}
+
+/* NAVIGATION LEFT */
+.navigation-left {
+  background-color: var(--color-main-blue);
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
 }
