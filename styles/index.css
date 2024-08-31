@@ -56,6 +56,41 @@ body {
 
 /* bottom header */
 .header-bottom {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.img-big-avatar {
+  height: 4.5rem;
+
+  border-radius: 50%;
+  width: auto;
+  border: solid 3px var(--color-main-blue);
+}
+
+.text-container {
+}
+
+.text-container .under-text-small {
+  font-weight: var(--font-weight-superbold);
+  font-size: var(--font-size-text);
+}
+
+.text-container .h2-txt {
+  font-weight: var(--font-weight-superbold);
+  font-size: var(--font-size-text-bold);
+}
+
+.header-bottom .btn {
+  background-color: var(--color-main-blue);
+  color: var(--color-main-white);
+  border-radius: 1rem;
+  padding: 0.3rem 2rem;
+  font-weight: var(--font-weight-bold);
+  border: none;
 }
 
 /* MAIN SECTION PROJECTS */
