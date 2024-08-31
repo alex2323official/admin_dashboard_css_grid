@@ -113,4 +113,45 @@ body {
   background-color: var(--color-main-blue);
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  padding: 1rem;
+}
+
+.h1-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.navigation-left .icon-big {
+  font-size: 4rem;
+  margin-right: 0.3rem;
+}
+
+.h1-txt {
+  font-size: var(--font-size-h1);
+}
+
+.main-nav {
+}
+
+.main-nav-li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+
+  align-items: center;
+  justify-items: start;
+}
+
+.navigation-left li svg {
+  font-size: 1rem;
+}
+
+.navigation-left a {
+}
+
+.bottom-nav {
+}
+
+.bottom-nav-li {
 }
