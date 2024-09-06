@@ -147,6 +147,34 @@ body {
 .announcments {
   grid-column: 2/3;
   grid-row: 1/2;
+  margin: 0 1rem;
+}
+
+.ann-h2 {
+  margin-bottom: 1rem;
+}
+
+.ann-cards-container {
+  background-color: var(--color-main-white);
+  border-radius: 0.5rem;
+}
+
+.ann-card {
+  padding: 1rem;
+}
+
+.ann-h3 {
+  padding-top: 0.5rem;
+}
+
+.ann-paragraph {
+  border-bottom: solid 1px black;
+  padding-bottom: 2rem;
+}
+
+.ann-card:last-of-type .ann-paragraph {
+  border-bottom: none;
+  padding-bottom: 1rem;
 }
 
 /* Trending */
